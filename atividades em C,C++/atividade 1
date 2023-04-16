@@ -1,0 +1,27 @@
+//1) Prepare um algoritmo para perguntar a idade de 4 pessoas e informar a média destas idades\\
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int idade1, idade2, idade3, idade4,media ;
+
+    cout <<"Digite uma idade:";
+    cin >>idade1;
+    cout <<"Digite a segunda idade:";
+    cin  >>idade2;
+
+    cout <<"digite a terceira idade:";
+    cin >>idade3;
+
+    cout <<"Digite a quarta idade:";
+    cin >>idade4;
+    
+    media = (idade1+idade2+idade3+idade4)/4;
+
+    cout << "Média: " << media;
+
+    return 0;
+}
